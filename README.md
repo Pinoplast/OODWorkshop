@@ -9,4 +9,4 @@ Okay... let's agree that now program is a bit spagetti-code because of complexit
     1) Create abstract class Transport and move there what is related to the transport.
     2) Car should inherite Transport.
     3) Create class Bike which also must inherite Transport and create method Print which will print bike.
-3.  
+3. Change to follow encapsulation principle. Need to hide implementation. Branch "version-0.3".
