@@ -10,3 +10,4 @@ Okay... let's agree that now program is a bit spagetti-code because of complexit
     2) Car should inherite Transport.
     3) Create class Bike which also must inherite Transport and create method Print which will print bike.
 3. Change to follow encapsulation principle. Need to hide implementation. Branch "version-0.3".
+4. Same idea, change code to follow polymorthism. Branch "version-0.4"
