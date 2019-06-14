@@ -22,7 +22,7 @@ namespace OODWorkshop
 
     public class Car : Transport
     {
-        public string type = nameof (Car);
+        public const int height = 2;
         public void Print()
         {
             Console.WriteLine(this.GetDescription());
@@ -33,6 +33,29 @@ namespace OODWorkshop
             Console.CursorLeft = position;
             Console.WriteLine("     ");
             Console.BackgroundColor = previousColor;        
+        }
+    }
+
+    public class Bike : Transport
+    {
+        public const int height = 3;
+        public void Print()
+        {
+            Console.WriteLine(this.GetDescription());
+            ConsoleColor previousColor = Console.BackgroundColor;
+            Console.CursorLeft = position;
+            Console.Write("   ");
+            Console.BackgroundColor = color;
+            Console.WriteLine(" ");
+            Console.CursorLeft = position;
+            Console.WriteLine("   ");
+            Console.CursorLeft = position;
+            Console.Write(" ");
+            Console.BackgroundColor = previousColor;        
+            Console.Write(" ");
+            Console.BackgroundColor = color;
+            Console.Write(" ");
+            Console.BackgroundColor = previousColor;
         }
     }
 }

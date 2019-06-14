@@ -6,14 +6,14 @@ namespace OODWorkshop
     {
         static void Main(string[] args)
         {
-            Car car = new Car();
-            car.brand = "Zazlesla";
-            car.model = "First model";
-            car.id = "LT341";
-            car.speed = 100;
-            car.position = 4;
-            car.color = ConsoleColor.Blue;
-            car.Print();
+            Bike bike = new Bike();
+            bike.brand = "Zazlesla";
+            bike.model = "First model";
+            bike.id = "LT341";
+            bike.speed = 100;
+            bike.position = 4;
+            bike.color = ConsoleColor.Blue;
+            bike.Print();
         }
     }
 }
