@@ -6,8 +6,8 @@ namespace OODWorkshop
     {
         static void Main(string[] args)
         {
-            Car car = new Car("Zazlesla", "First model", "LAT433", 2, ConsoleColor.Blue);
-            car.Print();
+            Transport transport = new Car("Zazlesla", "First model", "LAT433", 2, ConsoleColor.Blue);
+            transport.Print();
         }
     }
 }

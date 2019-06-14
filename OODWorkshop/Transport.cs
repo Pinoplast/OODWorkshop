@@ -42,6 +42,8 @@ namespace OODWorkshop
         {
             return String.Format("{0} {1}, number = {2}", Brand, Model, Id);
         }
+
+        public abstract void Print();
     }
 
     public class Car : Transport
@@ -51,7 +53,7 @@ namespace OODWorkshop
             
         }
 
-        public void Print()
+        public override void Print()
         {
             Console.WriteLine(this.GetDescription());
             ConsoleColor previousColor = Console.BackgroundColor;
@@ -69,7 +71,7 @@ namespace OODWorkshop
         public Bike(string brand, string model, string id, int speed, ConsoleColor color):base(brand, model, id, speed, 3, color)
         {
         }
-        public void Print()
+        public override void Print()
         {
             Console.WriteLine(this.GetDescription());
             ConsoleColor previousColor = Console.BackgroundColor;
